@@ -10,7 +10,7 @@
 - Use present tense, imperative mood ("add", "fix", "update", not "added", "fixed", "updated")
 - Omit obvious details that can be inferred from the diff
 - **Match verbosity to impact**: Small focused changes deserve concise messages; complex architectural changes warrant more detail
-- Never reference Claude, Claude Code, or AI assistance in the commit message or as author
+- NEVER reference Claude, Claude Code, or AI assistance in the commit message or as author
 
 - Use conventional commit format (type(scope): description)
 - No period at the end of the subject line
