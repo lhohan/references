@@ -1,5 +1,5 @@
 ---
-description: Default system prompt of 1.0.85 with VCS-agnostic workflow support
+description: Default system prompt of 1.0.85 with jj workflow support
 ---
 
 # User Message
