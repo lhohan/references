@@ -2,10 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(jj st:*)",
-      "Bash(jj log:*)"
+      "Bash(jj log:*)",
+      "Bash(if jj root)",
+      "Bash(/dev/null)",
+      "Bash(then echo \"jj\")",
+      "Bash(elif git rev-parse --git-dir)",
+      "Bash(fi)"
     ],
     "deny": [],
     "ask": []
   },
-  "outputStyle": "no-claude-in-commit-msg"
+  "outputStyle": "jj-support"
 }
